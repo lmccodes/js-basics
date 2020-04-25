@@ -7,4 +7,5 @@ let swap = function() {
   c = b;
   b = a;
   a = c;
+  return (a, b);
 }
