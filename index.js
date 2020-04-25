@@ -1,3 +1,10 @@
-let name = 'Lisa';
-console.log(name);
-console.log(2+2);
+let a = 'red';
+let b = 'blue';
+let c = '';
+
+
+let swap = function() {
+  c = b;
+  b = a;
+  a = c;
+}
