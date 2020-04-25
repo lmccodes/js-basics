@@ -5,4 +5,4 @@ let c = '';
 c = b;
 b = a;
 a = c;
-return (a, b);
+console.log(a, b);
