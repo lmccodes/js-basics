@@ -6,5 +6,5 @@ let swap = function() {
   c = b;
   b = a;
   a = c;
-  console.log('a:'a, 'b:'b);
+  console.log(a,b);
 }
